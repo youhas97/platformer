@@ -24,18 +24,9 @@ config/name="Platformer"
 run/main_scene="res://src/levels/LevelTemplate.tscn"
 config/icon="res://icon.png"
 
-[autoload]
-
-UserData="*res://addons/github-integration/scripts/user_data.gd"
-IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
-
 [display]
 
 window/size/height=640
-
-[editor_plugins]
-
-enabled=PoolStringArray( "github-integration" )
 
 [input]
 
